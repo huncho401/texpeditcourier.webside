@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color:palevioletred;
+    background-size: cover;
+}
+nav{
+    padding: 100px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.log{
+    font-weight: bold;
+    font-size: 1.zero;
+    color: black;
+    transition: ease 100ms;
+    cursor: pointer;
+}
+.logo span{
+     color: brown;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+nav ul{
+    display: flex;
+    gap: zrea;
+}
+nav ul{
+    text-decoration: none;
+}
